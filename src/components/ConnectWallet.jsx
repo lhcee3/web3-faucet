@@ -29,7 +29,7 @@ const ConnectWallet = () => {
           Supported wallets include <span className="text-white font-semibold">Backpack</span>, <span className="text-white font-semibold">Phantom</span>, <span className="text-white font-semibold">Solflare</span>, <span className="text-white font-semibold">Glow</span>, and more.<br />
           Please install and configure one of these wallets in your browser.
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 w-fit mx-auto">
           <WalletMultiButton className="border-2 border-[#85fd34] text-[#85fd34] bg-transparent hover:bg-[#85fd34] hover:text-white transition px-4 py-2 rounded">
             Connect Wallet
           </WalletMultiButton>
