@@ -21,5 +21,5 @@ A React-based web app that allows users to send SOL tokens on the Solana blockch
 ##  Prerequisites
 
 - Node.js (v18+ recommended)
-- A Solana wallet like [Phantom](https://phantom.app/)
+- A Solana wallet like [Backpack](https://backpack.app/)
 - Basic knowledge of SOL transactions
