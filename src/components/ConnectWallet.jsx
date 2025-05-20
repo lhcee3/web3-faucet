@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import { WalletMultiButton, WalletDisconnectButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useNavigate } from "react-router-dom";
-import "../wallet-override.css";
-import "../animated-bg.css";
+import "../animated-bg.css"; // Keep only the animated background
 
 const ConnectWallet = () => {
   const { connected } = useWallet();
@@ -29,11 +28,11 @@ const ConnectWallet = () => {
           Supported wallets include <span className="text-white font-semibold">Backpack</span>, <span className="text-white font-semibold">Phantom</span>, <span className="text-white font-semibold">Solflare</span>, <span className="text-white font-semibold">Glow</span>, and more.<br />
           Please install and configure one of these wallets in your browser.
         </p>
-        <div className="flex gap-4 w-fit items-center justify-center mx-auto">
-          <WalletMultiButton className="border-2 border-[#85fd34] text-[#85fd34] bg-transparent hover:bg-[#85fd34] hover:text-white transition px-4 py-2 rounded">
+        <div className="flex gap-4 items-center justify-center mx-auto">
+          <WalletMultiButton>
             Connect Wallet
           </WalletMultiButton>
-          <WalletDisconnectButton className="border-2 border-[#85fd34] text-[#85fd34] bg-transparent hover:bg-[#85fd34] hover:text-white transition px-4 py-2 rounded">
+          <WalletDisconnectButton>
             Disconnect Wallet
           </WalletDisconnectButton>
         </div>
