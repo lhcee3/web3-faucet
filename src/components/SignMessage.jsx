@@ -36,7 +36,7 @@ const SignMessage = () => {
     return (
         <div className="flex flex-col items-center justify-center h-[70vh]">
             <h1 className="text-3xl text-[#85fd34] font-bold text-center mb-2">Solana Message Signer</h1>
-            <p className="text-gray-600 text-center mb-6">Sign a custom message with your connected wallet</p>
+            <p className="text-white-600 text-center mb-6">Sign a custom message with your connected wallet</p>
 
             <div className="flex gap-2">
                 <input

@@ -41,7 +41,7 @@ const SendTokens = () => {
     <div className='flex flex-col items-center justify-center h-[70vh] px-4'>
       <div className='text-center mb-8'>
         <h1 className='text-3xl font-bold text-[#85fd34]'>Solana Token Sender</h1>
-        <p className='text-gray-600 mt-2'>Send SOL to any wallet address easily</p>
+        <p className='text-white-600 mt-2'>Send SOL to any wallet address easily</p>
       </div>
 
       <div className='flex flex-col md:flex-row gap-4 w-full max-w-md'>

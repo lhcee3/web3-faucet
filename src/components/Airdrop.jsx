@@ -32,15 +32,11 @@ function Airdrop() {
   }
 
   return (
-    <div className="  w-full">
-      <div className="flex  gap-2 w-full justify-end p-3 ">
-        <WalletMultiButton></WalletMultiButton>
-        <WalletDisconnectButton></WalletDisconnectButton>
-      </div>
+    <div className="w-full">
       <div className="flex flex-col justify-center w-full h-[70vh] place-items-center">
         <div className="text-center my-2 flex flex-col gap-3">
-            <h1 className="text-[#85fd34] text-3xl font-bold">Solana Devnet Faucet</h1>
-            <p className="font-medium text-gray-400" >Easily request free SOL tokens for testing on the Solana devnet. 
+            <h1 className="text-[#85fd34] text-3xl font-bold">Solana Devnet Dispenser</h1>
+            <p className="font-medium text-gray-100" >Easily request free SOL tokens for testing on the Solana devnet. 
                 Perfect for developers building and debugging dApps.</p>
         </div>
         <div className="flex gap-3 m-4">

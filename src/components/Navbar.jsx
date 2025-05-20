@@ -9,24 +9,24 @@ function Navbar() {
   const handleLinkClick = () => setClick(false);
 
   return (
-    <div className="container mx-auto flex items-center p-4">
+    <div className="container mx-auto flex items-center p-5">
       <Link to="/">
         <h1 className="text-[#85fd34] text-3xl font-bold">Web3 Faucet</h1>
       </Link>
-      <div className="flex-1">
-        <ul className="hidden md:flex gap-8 justify-center mx-auto">
+      <div className="flex-1 flex justify-end">
+        <ul className="hidden md:flex gap-8">
           <li>
-            <Link to="/" onClick={handleLinkClick} className="text-gray-500 hover:text-[#85fd34] font-medium">
+            <Link to="/airdrop" onClick={handleLinkClick} className="text-white-500 hover:text-[#85fd34] font-medium">
               Airdrop
             </Link>
           </li>
           <li>
-            <Link to="/signMessage" onClick={handleLinkClick} className="text-gray-500 hover:text-[#85fd34] font-medium">
+            <Link to="/signMessage" onClick={handleLinkClick} className="text-white-500 hover:text-[#85fd34] font-medium">
               Sign Message
             </Link>
           </li>
           <li>
-            <Link to="/sendTokens" onClick={handleLinkClick} className="text-gray-500 hover:text-[#85fd34] font-medium">
+            <Link to="/sendTokens" onClick={handleLinkClick} className="text-white-500 hover:text-[#85fd34] font-medium">
               Send Tokens
             </Link>
           </li>
@@ -41,7 +41,7 @@ function Navbar() {
         }`}
       >
         <li>
-          <Link to="/" onClick={handleLinkClick} className="text-xl text-[#85fd34] font-semibold">
+          <Link to="/airdrop" onClick={handleLinkClick} className="text-xl text-[#85fd34] font-semibold">
             Airdrop
           </Link>
         </li>
